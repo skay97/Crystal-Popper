@@ -8,14 +8,14 @@ var randomResult;
             $(".crystals").empty();
 
             var images = [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1DM7VtIDUPBiRJi0JJJXvyCsx7A2eAFK7Jaoc3v62RxJOOdIVQ",
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCCPpV0tioRrsmpxkVFEnkkL_b7QZDU2fAwH4uWUxVvg7r1iw1",
-                "https://images-na.ssl-images-amazon.com/images/I/7125NT4a7PL._SX425_.jpg",
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcMcWb7cbMINQdVFRBobywxzebpmvk-KpIsDSuGuMxcYPDL1ThQ"];
+                "assets/images/crystal1.png",
+                "assets/images/crystal2.png",
+                "assets/images/crystal3.png",
+                "assets/images/crystal4.png"];
 
             randomResult = Math.floor(Math.random() * 100) + 19;
 
-            $("#result").html('Random number:' + randomResult);
+            $("#result").html('Mystic Number:' + randomResult);
 
             for (var i = 0; i < 4; i++) {
 
