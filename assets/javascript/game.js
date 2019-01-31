@@ -53,7 +53,7 @@ var randomResult;
             if (previous > randomResult) {
                 lost++;
 
-                $("#lost").html("You lost:" + lost);
+                $("#lost").html("Losses:" + lost);
 
                 previous = 0;
 
@@ -62,7 +62,7 @@ var randomResult;
             } else if (previous === randomResult) {
                 win++;
 
-                $("#win").html("You won: " + win);
+                $("#win").html("Wins: " + win);
 
                 previous = 0;
 
