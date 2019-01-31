@@ -1,4 +1,4 @@
-## Crystal Popper
+# Crystal Popper
 
 ## Play Here:
  https://skay97.github.io/Crystal-Popper/
