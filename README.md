@@ -16,3 +16,4 @@
   * The app will show the number of games the player wins and loses. 
   
   ## Screenshots:
+  ![](assets/images/demo.png)
